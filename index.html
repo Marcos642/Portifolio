@@ -1,0 +1,183 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+  <head>
+    <title>Tadeu Portifolio</title>
+    <link rel="stylesheet" type="text/css" href="css/style.css" media="screen" />
+    <script src="js/jquery.js"></script>
+    
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Archivo+Black&display=swap" rel="stylesheet">
+    <meta charset="utf-8">
+  </head>
+  <body>
+   <!-- ///////////////////// BANNER ////////////////////////// -->
+<header>
+
+    <div class="menu">
+      <img src="img/menu.png" alt="">
+    </div><!-- menu -->
+
+   <div class="space">
+        <h2 id="myname">Olá, seja bem vindo !</h2>
+        <h2 id="aa">meu protifolio!</h2>
+    </div> <!-- space -->
+   
+   <h2 id="chamada">Trabalhos</h2>
+   <img id="img1" src="img/banner.png" alt="">
+
+   <div class="icon">
+      <img src="img/icon.png" alt="">
+    </div> <!--icon -->
+
+   <div class="listas">
+        <div id="list1"></div>
+        <div id="list2"></div>
+        <div id="list3"></div>
+        <div id="list4"></div>
+        <div id="list5"></div>
+        <div id="list6"></div>
+        <div id="list7"></div>
+    </div>   <!--  listas -->
+
+</header>
+     <!-- ///////////////////// FIM BANNER ////////////////////////// -->
+
+    <section class="trabalhos">
+      <div class="job">
+        <a href="page.html">
+          <img src="img/ex1.png" alt="">
+          <h2>Envio de mensagem e google maps</h2>
+        </a> <!--  page.html -->
+      </div>  <!-- job -->
+
+      <div class="job">
+        <a href="page2.html">
+          <img src="img/log1.png" alt="">
+          <h2>Meu primeiro trabalho</h2>
+        </a>
+      </div>  <!-- job -->
+
+      <div class="job">
+        <a href="page3.html">
+          <img src="img/log2.png" alt="">
+          <h2>Pagina para hotel</h2>
+        </a>
+      </div>  <!-- job -->
+
+      <div class="job">
+        <a href="page4.html">
+          <img src="img/log3.png" alt="">
+          <h2>Página de anúncio</h2>
+        </a>
+      </div>  <!-- job -->
+
+      <div class="job">
+        <a href="page5.html">
+          <img src="img/log4.png" alt="">
+          <h2>Venda de serviço</h2>
+        </a>
+      </div>  <!-- job -->
+    </section> <!--   trabalhos -->
+
+    <!-- //////////////////////// MENU ////////////////////////// -->
+
+    <div class="spaceMenu" style="display:none;">
+      <div class="menu2">
+        <img src="img/menu.png" alt="">
+      </div><!-- menu -->
+
+             <div class="devidoEspaco">
+                <div class="myFoto" style="background-image:url('img/eu.jpeg ');"></div>
+
+                <div class="social">
+                  <div class="sobreMim">
+                    <p>Olá, meu nome é Marcos, sou desenvolvedor web, 
+                      front end e back end. Trabalho com as melhores 
+                      tecnologias do mercado; são elas: html, css, 
+                      javaScript,python,django,php e bootstrap. 
+                      Se você tiver interesse em desenvolver 
+                      algum sistema web entre em contato.</p>
+                  </div>  <!-- sobreMim -->
+
+                  <div class="redes">
+                      <a href="https://api.whatsapp.com/send?phone=5591981678868&text=Ol%C3%A1%2C%20vim%20pelas%20midias%20sociais" target="_blank" rel="noopener noreferrer">
+                        <img src="img/whatsapp.png" alt=""></img>
+                      </a>
+
+                      <a href="https://www.linkedin.com/in/marcos-tadeu-3b1b23142/" alt="" target="_blank" rel="noopener noreferrer">
+                        <img src="img/linkedin.png" alt=""></img>
+                      </a>
+
+                      <a href="https://www.instagram.com/marcos_tad2/?igshid=MWM2YjBjM2Q=" target="_blank" rel="noopener noreferrer">
+                        <img src="img/instagram.png" alt=""></img>
+                      </a>
+                      <!-- <div id="Linkedin"></div>
+                      <div id="Instagram"></div> -->
+                  </div> <!-- redes -->
+                </div><!--social -->
+             </div> <!--  devidoEspaco -->
+          
+    </div><!-- spaceMenu -->
+
+    <script>
+      $(document).ready(function(){
+          /*ABRINDO*/
+          $(".menu").click(function(){
+              $(".spaceMenu").show(1000);
+          })
+          /*OCUTANDO*/
+          $(".menu2").click(function(){
+              $(".spaceMenu").hide(1000);
+          });
+      });
+  </script>
+
+
+
+
+<div class="devidoEspaco" style="width:58.63% ; height: 230px; margin: 0 auto; margin-top: -60px; position: relative;">
+
+  <div class="social">
+    <div class="sobreMim">
+      <p>Esses são os principais trabalhos desenvolvidos por mim, se tiver interece entre em contato atravez das modias sociais listadas a baixo !</p>
+      </p>
+    </div>  <!-- sobreMim -->
+
+    <div class="redes" style="margin-top:-50px ;">
+        <a href="https://api.whatsapp.com/send?phone=5591981678868&text=Ol%C3%A1%2C%20vim%20pelas%20midias%20sociais" target="_blank" rel="noopener noreferrer">
+          <img src="img/whatsapp.png" alt=""></img>
+        </a>
+
+        <a href="https://www.linkedin.com/in/marcos-tadeu-3b1b23142/" target="_blank" rel="noopener noreferrer">
+          <img src="img/linkedin.png" alt=""></img>
+        </a>
+
+        <a href="https://www.instagram.com/marcos_tad2/?igshid=MWM2YjBjM2Q=" target="_blank" rel="noopener noreferrer">
+          <img src="img/instagram.png" alt=""></img>
+        </a>
+        <!-- <div id="Linkedin"></div>
+        <div id="Instagram"></div> -->
+    </div> <!-- redes -->
+  </div><!--social -->
+</div> <!--  devidoEspaco -->
+
+    <!--//////////////// FOOTER --- ULTAMA PARTE INDEX /////////////////////// -->
+   
+    <footer>
+      <div class="sectionFooter">
+          <div class="logoFim"><img src="img/bannerFim.png" alt=""></div>
+
+          <div class="detalhes" style="margin-top:-20px ;">
+            <p>Contato :</p>
+            <span>(91) 98167-8869</span>
+            <p>Endereço :</p>
+            <span>Castanha/Pa - Brasil</span>
+            <p>Email :</p>
+            <span>marcostadeu642@gmail.com</span>
+          </div>
+      </div> <!-- sectionFooter -->
+    </footer>
+
+  </body>
+</html>
